@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 const path = require('path');
 
-const GOOGLE_SCRIPT_URL = "YOUR_GOOGLE_SCRIPT_URL";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyAHFBzTDnr8Qq0MiGTGERLxF6XwrDJR3RibNQoulZZigg8ta3FJixUubY_BV_pAVA/exec";
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
